@@ -1,0 +1,18 @@
+body#cuerpo1{
+	background-color:#222324;
+}
+
+h2{
+    font-family: Verdana;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: arial;
+}
+
+span{
+    color: white;
+    font-family: arial;
+}

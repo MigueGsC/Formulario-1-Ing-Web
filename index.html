@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+
+    <body id="cuerpo1">
+        <script src="" async defer></script>
+
+        <h2>Formulario de admisión 2021</h2>
+        <p>Bienvenido, por favor, <strong>rellene cuidadosamente</strong> el siguiente formulario de admisión: </p>
+
+        <form action="/action_page.php">
+            <label for="nombre"><span>Nombres:</span></label>
+            <input type="text" id="nombre" name="nombre" value="Pedro" required><br><br>
+
+            <label for="apellidos"><span>Apellidos:</span></label>
+            <input type="text" id="apellidos" name="apellidos" value="Palote" required><br><br>
+
+            <label for="rut"><span>Rutificador:</span></label>
+            <input type="text" id="rut" name="rut" value="111111111" required><br><br>
+
+            <label for="correo"><span>Correo electrónico:</span></label>
+            <input type="email" id="correo" name="correo" value="correo@algo.com" required><br><br>
+            
+            <label for="telefono"><span>Celular +56:</span></label>
+            <input type="tel" id="telefono" name="telefono" minlength="9" required><br><br>
+
+            <p>Seleccione 1 o más lenguajes de programación de su interés: </p>
+
+            <input type="checkbox" id="lenguaje1" name="Python" value="Python">
+            <label for="lenguaje1"><span>Python:</span></label><br>
+            
+            <input type="checkbox" id="lenguaje2" name="Java" value="Java">
+            <label for="lenguaje2"><span>Java:</span></label><br>
+            
+            <input type="checkbox" id="lenguaje3" name="TypeScript" value="TypeScript">
+            <label for="lenguaje3"><span>TypeScript:</span></label><br>
+            
+            <input type="checkbox" id="lenguaje4" name="PHP" value="PHP">
+            <label for="lenguaje4"><span>PHP:</span></label><br>
+            
+            <input type="checkbox" id="lenguaje5" name="C#" value="C#">
+            <label for="lenguaje5"><span>C#:</span></label><br>
+            
+            <input type="checkbox" id="lenguaje6" name="C++" value="C++">
+            <label for="lenguaje6"><span>C++:</span></label><br><br>
+
+            <label for="nivel"><span>¿Cuál es su nivel de conocimiento en programación de 0 a 100?: <br></span></label>
+            <input type="range" id="nivel" name="nivel" min="0" max="100" required>
+            <br><br> 
+
+            <label for="años"><span>¿Cuántos años de experiencia laboral tiene?: <br></span></label>
+
+            <input type="radio" id="1" name="años" value="1">
+            <label for="1"><span>1.</span></label>
+            <input type="radio" id="2" name="años" value="2">
+            <label for="2"><span>2.</span></label>
+            <input type="radio" id="3" name="años" value="3">
+            <label for="3"><span>3.</span></label>
+            <input type="radio" id="4" name="años" value="4">
+            <label for="4"><span>4.</span>></label>
+            <input type="radio" id="5" name="años" value="5">
+            <label for="5"><span>5.</span></label>
+            <br><br> 
+
+            <label for="descripcion"><span>Elabore una descripción breve acerca de usted: <br></span></label>
+            <textarea id="descripcion" rows="6" cols="50" maxlength="300">Descripción de usted...</textarea>
+            
+            <br><br>
+            
+            <input type="submit" value="Submit">
+            <input type="reset">
+            
+        </form>
+
+    </body>
+
+</html>
